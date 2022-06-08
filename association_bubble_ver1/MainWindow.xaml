@@ -1,0 +1,37 @@
+﻿<Window x:Class="association_bubble_ver1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:association_bubble_ver1"
+        mc:Ignorable="d"
+        Icon="/Resources/icon_v2.png"
+        Title="連想シャボン" Height="600" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="15*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="20"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBox
+                Grid.Row    ="0"
+                x:Name      ="textbox"
+                KeyDown     ="OnKeyDownHandler"
+                Foreground  ="Black"
+                BorderBrush ="Black"
+                Background  ="White"/>
+            <Button
+                Grid.Row    ="1"
+                Content     ="dequeue"
+                Click       ="Button_Dequeue"/>
+        </Grid>
+        <Border Grid.Column="1" BorderThickness="1" BorderBrush="Black">
+            <Canvas Grid.Column="1" x:Name="canvas"/>
+        </Border>
+    </Grid>
+</Window>

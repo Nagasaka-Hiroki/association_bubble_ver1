@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "association_bubble_ver1", "association_bubble_ver1\association_bubble_ver1.csproj", "{A87562DC-4095-4151-ACB6-35955DD49CF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A87562DC-4095-4151-ACB6-35955DD49CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87562DC-4095-4151-ACB6-35955DD49CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87562DC-4095-4151-ACB6-35955DD49CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87562DC-4095-4151-ACB6-35955DD49CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C85DEEA-1477-4892-80F7-A6346BB2DB02}
+	EndGlobalSection
+EndGlobal
